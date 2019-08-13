@@ -1,0 +1,86 @@
+Name: Rutvik Shah
+Student id: 200396357
+Class: CS215 - section 95
+url: www2.cs.uregina.ca/~rrs680/TeleTalk/home.php
+File List:
+
+1) home.php : This page has the brand images for the website. Its logo is mapped to the same page and it has placeholder data
+               for future assignments. Styling consists of some sections, header and carefully picked up color scheme that matches the 
+               branding for the website.
+
+2) signup.php : This page consists of 2 forms. One that assists people to sign-up as a new user and one login form if you clicked 
+		 sign-up link mistakenly. The logo button is mapped back to home.php. This follows similar design scheme as home.php
+
+3) msglist.php : This is the page that is a new home page for logged in users. Design is similar but new dynamic data is put along 
+		  with some transition effects on hovering over msg fields. The forms are generated dynamically. This page 
+                  can be accessed if you sign-up or log-in from the home page. There is also a logout button and avatar img at top-right.
+
+4) msgcreate.php : This page is accessed via the compose button on footer of msglist.php page. This contains one big form that assists
+		    the logged in user to compose a message and post it.
+
+5) msgview.php : This page is accessed if you submit access code from the msglist.php page so that you can view the message along with 
+		  a view list of 5 most recent viewers of the page with time.
+
+6) logout.php: This page is an intermediate redirection for when a user logs out and this page destroys the ongoing session.
+
+7) error.php: This page is an intermediate redirection page when you try to access a page even though you are not logged in. It will 
+		redirect you back to home.php
+
+8) resources/img: This folder contains all necessary images for the website.
+
+9) resources/css/style.css: This is a css file containing styling for the whole website (all 5 html pages).
+
+
+
+
+10) resources/js/homevalidation.js : This is a javascript file that contains validation scripting for login forms used in 
+				    pages "home.php" and "signup.php".
+
+11) resources/js/homevalidation-call.js : This is a javascript file that is meant for event registration for the login forms
+					 on pages "home.php" and "signup.php".
+
+
+
+
+12) resources/js/msgcreatevalidation.js : This is a javascript file that contains validation scripting for form used in 
+				          page "msgcreate.php" to validate things like proper expiry date and time, accesscode etc.
+					  This page also contains a dynamic counter for character count in the msg textarea along with the validation 
+					  for that textarea.
+
+13) resources/js/msgcreatevalidation-call.js : This is a javascript file that is meant for event registration for the form on page "msgcreate.php".
+
+
+
+
+14) resources/js/msglistvalidation.js : This is a javascript file that contains validation scripting for forms used in 
+				    	page "msglist.php" to validate proper accesscodes.
+
+15) resources/js/msglistvalidation-call.js : This is a javascript file that is meant for event registration for the forms
+					     on page "msglist.php".
+
+
+
+16) resources/js/signupvalidation.js : This is a javascript file that contains validation scripting for signup form used in 
+				       "signup.php" which validates things like proper username, email address, passwords etc.
+
+17) resources/js/signupvalidation-call.js : This is a javascript file that is meant for event registration for the signup form
+					 on page "signup.php"
+
+
+18) uploads/ : This directory is where all the profile pictures of users that they upload are stored.
+
+
+
+
+
+
+
+
+----- Username and passwords for 4 users in the website----
+
+1) username: rutvikshah28@abc.com  password: Dummy1234
+2) username: randomuser1@abc.com   password: randompass1
+3) username: randomuser2@abc.com   password: randompassword2
+4) username: randomuser3@abc.com   password: randompassword3
+
+		[All of this has been coded keeping in mind XHTML syntax but using HTML5]
